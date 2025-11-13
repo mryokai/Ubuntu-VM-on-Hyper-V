@@ -39,7 +39,9 @@ Remote Desktop Connection to the ip
 
 
 Check dialout group
+
 getent group 4groupname
+
 groups $username>
 
 sudo adduser $user dialout
