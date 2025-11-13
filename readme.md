@@ -52,6 +52,5 @@ tty
 
 
 
-
-sudo minicom -8 -b 115200 -D /dev/ttyUSB0
+minicom -8 -b 115200 -D /dev/ttyUSB0
 
