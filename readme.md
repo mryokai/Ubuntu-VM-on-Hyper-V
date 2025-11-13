@@ -43,3 +43,7 @@ Check dialout group
 groups <username>
 
 sudo adduser $user dialout
+
+
+sudo minicom -8 -b 115200 -D /dev/ttyUSB0
+
