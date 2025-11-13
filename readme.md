@@ -39,8 +39,8 @@ Remote Desktop Connection to the ip
 
 
 Check dialout group
-
-groups <username>
+getent group 4groupname
+groups $username>
 
 sudo adduser $user dialout
 
