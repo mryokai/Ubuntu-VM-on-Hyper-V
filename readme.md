@@ -19,11 +19,27 @@ sudo apt install xrdp
 sudo vi /etc/xrdp/startwm.sh
 
 Codes to be added in startwm.sh file - 
+
 export DESKTOP_SESSION=ubuntu
+
 export GNOME_SHELL_SESSION_MODE=ubuntu
+
 export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+
 
 
 sudo systemctl enable -now xrdp
 
 sudo ufw allow from any to any port 3389 proto tcp
+
+Find the ip address
+
+Remote Desktop Connection to the ip
+
+
+
+Check dialout group
+
+groups <username>
+
+sudo adduser $user dialout
